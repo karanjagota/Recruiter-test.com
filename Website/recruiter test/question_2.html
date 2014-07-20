@@ -1,0 +1,51 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER : ' +
+' Minimum 2 moves  .  '  +
+ ' Explanation - ' +
+'1.Divide the 8 identical coins into groups of six and two coins.' +
+'2. Divide the six coins into groups of three and weigh against each other(Ist move) ' +
+'3. If their weight is equal, then coin is either of the remaining two. Weigh each of the remaining two against each other and the lighter one is the coin weighing 9 grams(IInd move) ' +
+'4. If any one group of three coins is lighter it is the one containing the required coin. Take any two coins from these three and weigh them against each other(IInd move). ' +
+' The lighter one is the required one otherwise if the weight is equal, the last remaining one is the required coin weighing 9 grams.' 
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 2 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Akhil has 8 gold coins. All gold coins are identical. 7 gold coins weighs 10 gms each 
+and 8th one weighs 9 gms. Akhil has one and only one resource available - A weighing balance that can just compare 
+the weights i.e. will tell one side is heavier and other one is lighter. Now, you have to tell the minimum number of moves required? Each move compare 2 sets of coins. 
+
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_2.jpg" alt="img"/>
+</div>
+</div>
+<hr>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+
+</body>
+
+</html>

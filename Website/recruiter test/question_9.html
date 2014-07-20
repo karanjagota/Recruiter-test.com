@@ -1,0 +1,68 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER :' +
+'To start with 3rd digit is glued to 1' +
+' 2nd, 5th, 6th & 8th can only be among 0 2 3 4. Because this is the only combination which would give a single digit number upon summation.' +
+'Finding 2nd 4th 6th & 10th digits' +
+'2nd cannot be 0 because then 10th also has to be 0  which violates cond. 1. So 2 can be any of 2 3 4.This implies 10th can be any of 4 6 8 respectively. '+
+'hence the prod of 2nd & 10th can be any of 8 18 32.'+
+'Now 4th is a perfect square.1 is already occupied so 4th can be any of 4 9.'+
+'6th can be any of 0 2 3 4 . This implies the prod of 4th & 6th can be 0 8 12-for 4th digit is 4 and 0 18 27 36-for 4th digit is 9. Overall the prod can ' + 
+'be any of 0 8 12 18 27 36. '+
+'From cond. 7, only feasible choices for prod are 8 & 18. Out of these only 18 can be chosen because it gives four distinct values for 2nd 10th 4th & 6th digits.'+
+' Prod 8 does not give distinct values for them thus violating cond. 1.'+
+'So digits corresponding to prod 18 are---2nd 10th 4th 6th -- 3 6 9 2' +
+'Now others can be determined easily.....'+
+' 7th is 7.'+
+' the only place left for 5 is 9th digit. '+
+'  only place for 4 is 5th digit.'+
+' 0 goes to 8th digit '+
+'There is just one place left unoccupied, that is 8 is the 1st digit.'+
+'So 8319427056';
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 9 :</font>
+</h1>
+</div>
+<div id=wrap_me">
+<div id="problem_text">
+<p id="para_color">
+A thief entered a bank to rob it. Unfortunately, he forgot the actual code. However, he still remembers the following clues :-
+ All the digits are from 0-9, and each digit is used exactly once.
+The sum of the 2nd, 5th, 6th and 8th digits is a single number.
+The 4th digit is a perfect square. 
+The 3rd digit is 1. 
+The sum of the 4th and the 7th digits is a perfect square. 
+The value of the 10th digit is twice that of the 2nd digit. 
+The product of the 4th and 6th digits is equal to the product of the 10th and 2nd digits. 
+The 5 is next to the 6, but not next to the 4. 
+What is the code ?
+
+</p>
+</br>
+<hr>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_9.jpg" alt="img"/>
+</div>
+
+</div>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</body>
+
+</html>

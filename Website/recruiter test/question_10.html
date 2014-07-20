@@ -1,0 +1,65 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER :'+
+': Karen will win. In general when there are n targets placed in a line the first player to hit the target in the game will always win. '+ 
+'The strategy will be that the first player will hit the central target/s and divide the row into equal halves and then just imitate the moves' +
+' of his opponent in the opposite half of that move in the following moves. In the end the whatever the second '+
+'player does to 1 or 2 targets remaining in any of the half the first player will do the same in the opposite half and those will be the last ones to be hit. Hence karen will win.'
+
+
+
+
+
+;}
+</script>
+
+</head>
+<body background="back.jpg" >
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 10 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Harvard and Karen had bought a new video game for their PS4.
+It was a very interesting video game as it was a turn based game.
+There were several targets placed in a line.
+The player in each shoot down the targets , and after shooting the target it vanishes.
+Now , the player whose turn it is could shoot down at least 1 target and at most 2 targets where there
+should be no gap in between and no other target between those 2 targets . The person who shoots
+down the last target wins the unique game.
+Now , we are given that there are 2014 targets placed in a line.
+You have to tell who will win if karen takes the first turn and both of them play optimally ?
+And what will the answer in general case when we have N targets placed in a line ?
+
+
+</p>
+</br>
+<hr>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_10.jpg" alt="img"/>
+</br>
+</div>
+</div>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</body>
+
+</html>
+
+
+
+

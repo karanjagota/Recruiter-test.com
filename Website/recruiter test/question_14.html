@@ -1,0 +1,81 @@
+
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER :'+
+'The product of the houses is 72.'+
+'72=1*2*2*2*3*3 '+
+'So, there are 11 possible combinations of the sizes in thousand sq ft of 3 houses with their sums= '+
+'(1 2 36)=39 (1 3 24)=28 (1 4 18)=23 (1 6 12)=19 (1 8 9)=18(2 2 18)=22(2 3 12)=17 (2 4 9)=15(2 6 6)=14(3 3 8)=14(3 4 6)=13'+
+
+'Ravi says that the sum of the houses is number of buildings over there'+
+'On this, Adhiraj first says that he got it. This means that he knows number of '+
+'buildings over there and so, he can find out the sizes of the houses by matching '+
+'the sum with number of buildings'+
+
+'But, then he realizes he doesnt know for sure. This means he must be confused '+
+'between the combinations of houses that give same sum.'+ 
+'So, houses have sizes either (2,6,6) or (3,3,8)'+
+
+'Then they start talking about Ravi having a biggest house. Since (2,6,6) doesnt '+
+'have one biggest house but two, the answer has to be (3,3,8)'+
+
+'So,the sizes of houses are 3000 sq ft, 3000 sq ft and 8000 sq ft.'
+
+
+
+
+
+;}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 14 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+
+Two engineers, Ravi Batra and Adhiraj Gautam bump into each other after not
+having seen each other in 20 years.
+'How have you been?' Adhiraj says to Ravi.
+'Great!' answers Ravi. 'I have three Bungalows now.'
+'Thats really great. How big are they?'
+'Well, the product of their size in thousand square feet is 72, and the sum of their
+size is same as the number of buildings over there.'
+'Right. I got it. Wait . . . I still dont know for sure.'
+'Oh, sorry,' says Ravi. 'My biggest bungalows is near marine drive'
+'Wonderful! My bungalow is of same size as your biggest one'
+Problem: How big are the bunglows of Ravi?
+
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_14.jpg" alt="img"/>
+</div>
+</div>
+<hr>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</div>
+</body>
+
+</html>
+
+
+
+

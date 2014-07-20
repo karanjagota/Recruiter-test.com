@@ -1,0 +1,47 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER : ' +
+'1 match = 1 point. Again the sum of the points of top 4 players are 16.5. So I counted how many players are at least needed to held 16.5 or much point. ' +
+ 'And we need at least 7 players in the tournament (Total match will be 6+5+4+3+2+1=21 match). Because the top 4 gained 16.5 points; the other' +
+' three will have a total of (21 -16.5) or 4.5 point. ' + 
+'Because every player make at least one draw and the lowest player has a point of integer number the point of the lowest player should be 1 simply';
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 7 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+In a chess tournament , players get 1 point for a win , 0 points for a loss and  point for a draw. In a tournament where every player plays against every other player exactly
+ once , the top four scores were 5 , 4 , 4 and 2 . What was the lowest score in the tournament ?
+
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_7.jpg" alt="img"/>
+</div>
+</div>
+<hr>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER :8 Explanation -- ' +
+'Fill the 8 diagonal cells with 8 bugs. Now the diagonal below and above the main diagonal having 7 cells will have bugs due to start of generation phase.' +
+' Similarly diagonal 2 position below and above having 6 cells will have bugs.' +
+ 'Similarly all cells will be filled diagonally and no cell will remain empty at the end. So answer is 8. Also you can try proving that X is actually 8 and not less than 8.';
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 8 :</font>
+</h1>
+</div>
+<div id ="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Chang had bought a new video game G.A.B - GRID AND BUGS  .
+In this video game there would be a 8 x 8 grid having 64 cells in total.
+Now, the player has the option of filling any number of the cells with bugs .
+A single cell can contain a single bug.
+Now after this has been done , generation phase starts in which all the cells
+which are empty and have 2 or more neighbouring cells with bugs , get filled with a bug itself.
+After playing the video game several times , Chang noticed that sometimes after the generation phase
+all the cells have bugs . He derived that at least X cells should be filled with bugs or else the whole board cannot
+be filled after generation phase. Now you have to tell what X will be and why? 
+
+
+</p>
+</br>
+<hr>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_8.jpg" alt="img"/>
+</div>
+
+</div>
+
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</div>
+</body>
+
+</html>

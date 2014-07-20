@@ -1,0 +1,54 @@
+<html>
+<title>puzzles</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER : 10  ' +
+'  EXPLANATION  -  1. For any given box, say box 42, Leo will change its state for every divisor it has . so 42 has 1 & 42 , 2 & 21, 3 & 14, 6 & 7. so on pass '+ 
+'1 he will open the box , pass 2 he will close it , pass 3 open , pass 6 close, pass 7 open, pass 14 close, pass 21 open, pass 42 close.' +
+'2. For every pair of divisors the box will just end up back in its initial state.' +
+'3. Though for like box 9 has the divisors 1 & 9 , 3 & 3 . but 3 is repeated because 9 is a perfect square, so he will only visit box 9, on pass '+
+' 1 , 3 , and 9… leaving it open at the end.' +
+'4. Hence, Only perfect square boxes will be open at the end. '+ 
+'5. So , total perfect squares less than 100 are box number 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 will be open .  TOTAL BOXES = 10' 
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 4 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Leo has recovered 100 gold boxes (numbered from 1 to 100) on a treasure hunt. All boxes are closed initially. 
+He can only take those boxes that are open. To open the box , he needs to perform a task. He will start from the 
+first box and will open each of the closed box and close each opened box . Then he will start from the second box 
+and will do the same with the every second box ie  2nd ,4th , 6th .. so on.Then he will start from the 3rd box 
+and will do the same with the every third box. Then he will start from 4th , 5th and so on to 100th box.
+Which all boxes will Leo be taking home?
+
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_4.jpg" alt="img"/>
+</div>
+</div>
+<hr>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</div>
+</body>
+
+</html>

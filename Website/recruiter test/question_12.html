@@ -1,0 +1,52 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER : ' +
+
+'This is one of the basic probability question. Lets start by creating an equation. Let x be the probability of a car passing the intersection in a 5 minute window.' +
+'Probability of a car passing in a 20 minute window = 1 – (probability of no car passing in a 20 minute window) '+
+'Probability of a car passing in a 20 minute window = 1 – (1 – probability of a car passing in a 5 minute window)^4 '+
+'0.9 = 1 – (1 – x)'+'^4 '+
+'(1 – x)'+'^4'+' = 0.1' +
+'1 – x = 10' +'^'+'(-0.25)' +
+'x = 1 – 10' +'^' +'(-0.25) = 0.4377'
+
+
+
+;}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 12 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Prerna is on a long drive. The probability of her car passing 
+a certain intersection in a 20 minute span is 0.9. What is the probability of her car passing the intersection in a 5 minute span? (Assuming a constant probability throughout)
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_12.jpg" alt="img"/>
+</div>
+</div>
+<hr>
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</body>
+
+</html>

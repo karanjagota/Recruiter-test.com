@@ -1,0 +1,52 @@
+<html>
+<title>puzzels</title>
+<head>    
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript">
+function answer()
+{
+document.getElementById('get_answer').innerHTML='ANSWER : ' +
+' The payments should equal the receipts. It does not make sense to add what was paid by the men ($12) to what was received from that payment by the waiter ($2)' +
+' Although the initial bill was $15 dollars, one of the five dollar notes gets changed into five ones. The total the three men ultimately paid is $12, as they get' +
+' three ones back. So from the $12 the men paid, the owner receives $10 and the waiter receives the $2 difference. $15 - $3 = $10 + $2.' ;
+}
+</script>
+
+</head>
+<body background="back.jpg">
+
+
+<div id="container_head">
+<h1><font color="white">
+Question -- 6 :</font>
+</h1>
+</div>
+<div id="wrapme">
+<div id="problem_text">
+<p id="para_color">
+Three men in a cafe order a meal the total cost of which is $15. They each contribute $5. The waiter takes 
+the money to the chef who recognizes the three as friends and asks the waiter to return $5 to the men.
+The waiter is not only poor at mathematics but dishonest and instead of going to the trouble of splitting the 
+$5 between the three he simply gives them $1 each and pockets the remaining $2 for himself.
+Now, each of the men effectively paid $4, the total paid is therefore $12. Add the $2 in the waiters pocket
+ and this comes to $14.....where has the other $1 gone from the original $15?
+
+
+</p>
+</br>
+ 
+</div>
+<div id="para_img">
+<img src="images/ques_6.jpg" alt="img"/>
+
+</div>
+</div>
+
+<div id="get_answer">
+
+<center><input type="button" id="button_id" value="click me to view the answer" onclick="answer()"/></center>
+</div>
+</div>
+</body>
+
+</html>

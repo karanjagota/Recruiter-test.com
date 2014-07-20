@@ -1,0 +1,140 @@
+*{
+margin:0%;
+padding:0%;
+}
+#wrapper{
+width:100%;
+height:100%;
+background:rgba(256,19,49,.9);
+
+
+}
+#logo{
+width:100%;
+height:15%;
+background:rgba(40,40,40,.5);
+
+}
+#recruit
+{
+position :absolute;
+padding:1%;
+}
+#p_2{
+
+position:relative;
+color: white;
+font-family:comic sans ms;
+margin-left:20%;
+padding:5%;
+font:10%;
+}
+ 
+#nav{
+width:100%;
+height:auto;
+background:rgba(256,19,49,.9);
+
+}
+#home{
+width:10%;
+height:100%;
+background-color:purple;
+float:left;
+transition:width 1s;
+-webkit-transition: width 1s;
+
+}
+#p_1{
+font:20%;
+font-family:arial black;
+color:rgba(255,255,255,1);
+position:relative;
+top:23%;
+text-decoration:none;
+text-align:center;
+}
+
+#puzzels{
+width:10%;
+height:100%;
+background-color:rgba(256,19,49,.9);
+float:left;
+transition:width 1s;
+-webkit-transition: width 1s;
+
+}
+#p_3{
+font:20%;
+font-family:arial black;
+color:rgba(255,255,255,1);
+position:relative;
+top:23%;
+text-decoration:none;
+text-align:center;
+}
+#about{
+
+width:10%;
+height:100%;
+background-color:#2a7073;
+float:left;
+transition:width 1s;
+-webkit-transition: width 1s;
+}
+#p_4{
+font:20%;
+font-family:arial black;
+color:rgba(255,255,255,1);
+position:relative;
+top:23%;
+text-decoration:none;
+text-align:center;
+}
+#addon{
+
+width:10%;
+height:100%;
+background-color:green;
+float:left;
+transition:width 1s;
+-webkit-transition: width 1s;
+}
+#p_5{
+font:20%;
+font-family:arial black;
+color:rgba(255,255,255,1);
+position:relative;
+top:23%;
+text-decoration:none;
+text-align:center;
+}
+
+
+#puzz_me{
+
+width:100%;
+height:80%;
+background:rgba(40,40,40,.2);
+border:1%, purple;
+}
+#home:hover{
+width:70%;
+}
+#puzzels:hover{
+width:70%;
+}
+#about:hover{
+width:70%;
+}
+#addon:hover{
+width:70%;
+}
+
+.atxt{
+
+text-decoration:none;
+
+
+}
+
